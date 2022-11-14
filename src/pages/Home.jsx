@@ -4,10 +4,11 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import "../styles/Home.css";
 const Home = () => {
   return (
     <div className="home">
-      <div className="About">
+      <div className="about">
         <h2>Hi, I'm Roshan.</h2>
         <div className="prompt">
           <p>A web developer for passion for learning and creations.</p>
