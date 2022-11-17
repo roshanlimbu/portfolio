@@ -21,23 +21,23 @@ const Home = () => {
       </div>
       <div className="skills">
         <h1>Skills</h1>
-        <ol className="list">
-          <li className="item">
+        <div className="list">
+          <div className="item">
             <h2>Front-End</h2>
             <span>
               ReactJs, Redux, HTMl, CSS, React Native, NPM, BootStrap, Material
               Ui, Yarn, StyledComponent
             </span>
-          </li>
-          <li className="item">
+          </div>
+          <div className="item">
             <h2>Back-End</h2>
             <span>Nodejs, ExpressJs, MongoDb, SQL</span>
-          </li>
-          <li className="item">
+          </div>
+          <div className="item">
             <h2>Languages</h2>
             <span>Javascript, Python, C, C++, TypeScript</span>
-          </li>
-        </ol>
+          </div>
+        </div>
       </div>
     </div>
   );

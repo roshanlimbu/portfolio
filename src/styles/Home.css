@@ -46,6 +46,7 @@
 
 .skills h1 {
   color: #3e497a;
+  text-decoration: underline;
 }
 
 .skills .list {
