@@ -1,13 +1,10 @@
 import React from "react";
 
-const ProjectItem = (props) => {
+const ProjectItem = ({ name, image }) => {
   return (
     <div className="projectItem">
-      <div
-        style={{ backgroundColor: `url(${props.image})` }}
-        className="bgImage"
-      />
-      <h1>{props.name}</h1>
+      <div style={{ backgroundColor: `url(${image})` }} className="bgImage" />
+      <h1>{name}</h1>
     </div>
   );
 };
