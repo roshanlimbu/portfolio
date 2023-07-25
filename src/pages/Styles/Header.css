@@ -42,12 +42,12 @@ nav{
   width: 0%;
   height: 5px;
   bottom: -5px;
-  left: 0;
+  left: 2rem;
   transition: all .3s ease-in;
 }
 
 .nav-links:hover::after{
-  width: 100%;
+  width: 60%;
 }
 .active{
   color: white;
