@@ -1,13 +1,18 @@
 import React from 'react';
-
-
+import {Routes, Route} from 'react-router-dom' 
+import Home from './pages/Home';
+import AboutMe from './pages/AboutMe'
+import ContactMe from './pages/ContactMe'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>hello</h1>
-      </header>
+      <Routes>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='about' element={<AboutMe/>}></Route>
+        <Route path='contact' element={<ContactMe/>}></Route>
+      </Routes>
     </div>
+
   );
 }
 
